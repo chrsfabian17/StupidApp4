@@ -46,6 +46,7 @@ public class StupidController
     {
     	System.out.println("Okay, you typed this:" + foodInput);
     }
+    inputReader.nextLine();
     
     System.out.println("How many toes do you have?");
     int someInput = inputReader.nextInt();
